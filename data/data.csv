@@ -1,3 +1,4 @@
-make,model,year
-ford,pinto,1967
-ford,mustang,1968
+name,age,birthday,gender,email
+john,48,05/30/1970,male,john@gmail.com
+kate,35,08/17/1983,female,kate@hotmail.com
+jack,17,11/19/2001,male,jack@yahoo.com
