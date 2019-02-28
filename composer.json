@@ -1,0 +1,20 @@
+{
+    "name": "kyle/table-project",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Kyle Kreinheder",
+            "email": "kk566@njit.edu"
+        }
+    ],
+    "require": {}
+}
