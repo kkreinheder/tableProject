@@ -5,21 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 final class PersonTest extends TestCase
 {
-
-
-    public function testArray() {
-
-
-        $person = new John();
-
-        $personNames = $person->personName();
-        $this->assertArrayHasKey('one', $personNames);
-        $this->assertArrayHasKey('two', $personNames);
-        $this->assertArrayHasKey('three', $personNames);
-
-
-    }
-
+    
     public function testCanCreateJohn(): void
     {
         $person = new John();
