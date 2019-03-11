@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 final class PersonTest extends TestCase
 {
-    
+
     public function testCanCreateJohn(): void
     {
         $person = new John();
