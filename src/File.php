@@ -14,7 +14,7 @@ class File
               if($count == 0) {
                   $fieldNames = $row;
               } else {
-                  $records[] = (object) array_combine($fieldNames, $row);
+                  $records[] = (object) recordFactory::create($fieldNames, $values);
               }
               $count++;
            }
